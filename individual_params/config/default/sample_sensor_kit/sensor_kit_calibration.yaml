@@ -10,10 +10,10 @@ sensor_kit_base_link:
     x: 0.0
     y: 0.0
     z: 0.0
-    roll: 0.0
-    pitch: 0.0
+    roll: -0.052  # measured: -0.052
+    pitch: 0.00
     yaw: -1.57079632679
-  gnss_link:
+  gnss_link: # left rover
     x: -0.075
     y: 0.51
     z: 2.67
@@ -33,4 +33,4 @@ sensor_kit_base_link:
     z: -2.14
     roll: 0.0
     pitch: 0.0
-    yaw: 0
+    yaw: 0.0
